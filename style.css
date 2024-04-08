@@ -1,0 +1,157 @@
+#main{
+   
+   
+}
+.card{
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+}
+#first{
+    
+    background-color: yellow; 
+    border: 1px solid black; 
+    z-index: 1;
+}
+#first:hover{
+    z-index: 10;
+}
+#second{
+    rotate: -8deg;
+    background-color: red;
+    border: 2px solid black;     
+    z-index: 2;
+    
+}
+#second:hover{
+    z-index: 10;
+}
+#third{
+    rotate: -16deg;
+    z-index: 3;
+}
+#third:hover{
+    z-index: 10;
+}
+#forth{
+    rotate: -24deg;
+    z-index: 4;
+}
+#forth:hover{
+    z-index: 10;
+}
+#fifth{
+    rotate: -32deg;
+    z-index: 5;
+}
+#fifth:hover{
+    z-index: 10;
+}
+#sixth{
+    rotate: -40deg;
+    z-index: 6;
+}
+#sixth:hover{
+    z-index: 10;
+}
+#seventh{
+    rotate: -48deg;
+    z-index: 7;
+}
+#seventh:hover{
+    z-index: 10;
+}
+#eight{
+    rotate: 8deg;
+    z-index: -1;
+}
+#eight:hover{
+    z-index: 10;
+}
+#nine{
+    rotate: 16deg;
+    z-index: -2;
+}
+#nine:hover{
+    z-index: 10;
+}
+#ten{
+    rotate: 24deg;
+    z-index: -3;
+}
+#ten:hover{
+    z-index: 10;
+}
+#eleven{
+    rotate: 32deg;
+    z-index: -4;
+}
+#eleven:hover{
+    z-index: 10;
+}
+#twelve{
+    rotate: 40deg;
+    z-index: -5;
+}
+#twelve:hover{
+    z-index: 10;
+}
+#thirteen{
+    rotate: 48deg;
+    z-index: -6;
+}
+#thirteen:hover{
+    z-index: 10;
+}
+#forteen{
+    rotate: 56deg;
+    z-index: -7;
+}
+#forteen:hover{
+    z-index: 10;
+}
+#fifteen{
+    rotate: 64deg;
+    z-index: -8;
+}
+#fifteen:hover{
+    z-index: 10;
+}
+#sixteen{
+    rotate: 72deg;
+    z-index: -9;
+}
+#sixteen:hover{
+    z-index: 10;
+}
+#seventeen{
+    rotate: 80deg;
+    z-index: -10;
+}
+#seventeen:hover{
+    z-index: 10;
+}
+#eighteen{
+    rotate: 88deg;
+    z-index: -11;
+}
+#eighteen:hover{
+    z-index: 10;
+}
+#nineteen{
+    rotate: 96deg;
+    z-index: -12;
+}
+#nineteen:hover{
+    z-index: 10;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
